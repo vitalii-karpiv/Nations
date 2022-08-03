@@ -9,9 +9,17 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var countryLabel: UILabel!
+    
+    var country: String = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        imageView.image = UIImage(named: country)
+        imageView.layer.borderWidth = 1
+        imageView.layer.borderColor = UIColor.gray.cgColor
+        countryLabel.text = country.uppercased()
     }
 
 

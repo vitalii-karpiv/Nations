@@ -14,6 +14,8 @@
 		DDD0FE2A2899BAF1004B2D9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDD0FE292899BAF1004B2D9B /* Assets.xcassets */; };
 		DDD0FE2D2899BAF1004B2D9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDD0FE2B2899BAF1004B2D9B /* LaunchScreen.storyboard */; };
 		DDD0FE362899BB68004B2D9B /* FlagsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD0FE352899BB68004B2D9B /* FlagsTableViewController.swift */; };
+		DDD0FE392899BE1C004B2D9B /* FlagTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD0FE372899BE1C004B2D9B /* FlagTableViewCell.swift */; };
+		DDD0FE3A2899BE1C004B2D9B /* FlagTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDD0FE382899BE1C004B2D9B /* FlagTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		DDD0FE2C2899BAF1004B2D9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDD0FE2E2899BAF1004B2D9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDD0FE352899BB68004B2D9B /* FlagsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagsTableViewController.swift; sourceTree = "<group>"; };
+		DDD0FE372899BE1C004B2D9B /* FlagTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagTableViewCell.swift; sourceTree = "<group>"; };
+		DDD0FE382899BE1C004B2D9B /* FlagTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlagTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 				DDD0FE342899BB33004B2D9B /* SupportingFiles */,
 				DDD0FE242899BAEE004B2D9B /* DetailViewController.swift */,
 				DDD0FE352899BB68004B2D9B /* FlagsTableViewController.swift */,
+				DDD0FE3B2899BE35004B2D9B /* FlagTableViewCell */,
 				DDD0FE262899BAEE004B2D9B /* Main.storyboard */,
 				DDD0FE292899BAF1004B2D9B /* Assets.xcassets */,
 				DDD0FE2E2899BAF1004B2D9B /* Info.plist */,
@@ -76,6 +81,15 @@
 				DDD0FE2B2899BAF1004B2D9B /* LaunchScreen.storyboard */,
 			);
 			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		DDD0FE3B2899BE35004B2D9B /* FlagTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				DDD0FE372899BE1C004B2D9B /* FlagTableViewCell.swift */,
+				DDD0FE382899BE1C004B2D9B /* FlagTableViewCell.xib */,
+			);
+			path = FlagTableViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +153,7 @@
 				DDD0FE2D2899BAF1004B2D9B /* LaunchScreen.storyboard in Resources */,
 				DDD0FE2A2899BAF1004B2D9B /* Assets.xcassets in Resources */,
 				DDD0FE282899BAEE004B2D9B /* Main.storyboard in Resources */,
+				DDD0FE3A2899BE1C004B2D9B /* FlagTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +168,7 @@
 				DDD0FE362899BB68004B2D9B /* FlagsTableViewController.swift in Sources */,
 				DDD0FE212899BAEE004B2D9B /* AppDelegate.swift in Sources */,
 				DDD0FE232899BAEE004B2D9B /* SceneDelegate.swift in Sources */,
+				DDD0FE392899BE1C004B2D9B /* FlagTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
